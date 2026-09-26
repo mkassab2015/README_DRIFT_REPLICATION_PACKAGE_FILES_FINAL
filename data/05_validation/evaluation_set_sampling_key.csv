@@ -1,0 +1,201 @@
+eval_id,full_name,claim_type,artifact_or_path,snippet,stratum,status,label_v4
+EVAL_001,THU-MIG/yoloe,python_script,val_coco.py,python val_coco.py,supported,kept,supported
+EVAL_002,guyru/man-mcp-server,cd_dir,man-mcp,cd man-mcp,supported_sequence,kept,supported
+EVAL_003,Jaganpro/sf-skills,artifact_ref,connectedApp-meta.xml,| 🔐 | sf-connected-apps | `*.connectedApp-meta.xml` | OAuth security validation |,drifted,kept,drifted_high
+EVAL_004,janushendersonassetallocation/loman,make_target,test,make test,drifted,kept,drifted_medium
+EVAL_005,kunickiaj/codemem,artifact_ref,/opencode.ai/config.json,/opencode.ai/config.json,excluded,excluded,
+EVAL_006,arabcoders/ytptube,artifact_ref,compose.yaml,compose.yaml,drifted,kept,drifted_high
+EVAL_007,hzwer/ECCV2022-RIFE,cd_dir,ECCV2022-RIFE,cd ECCV2022-RIFE,supported_sequence,kept,supported
+EVAL_008,joeyan/gaussian_splatting,python_script,setup.py,python setup.py install,supported,kept,supported
+EVAL_009,yusufkaraaslan/Skill_Seekers,artifact_ref,/wf-a.yaml,/wf-a.yaml,drifted,kept,drifted_high
+EVAL_010,kunickiaj/codemem,artifact_ref,opencode/plugin/,.opencode/plugin/,drifted,kept,drifted_high
+EVAL_011,HKUDS/LightRAG,pip_install_editable,,pip install -e .,supported,kept,supported
+EVAL_012,BeyondTrust/pwning-agentcore-code-interpreter,make_target,exploit,make exploit  # Reads .victim_url automatically,supported,kept,supported
+EVAL_013,KoljaB/RealtimeVoiceChat,pip_install_pkg,torch==2.5.1+cu121,pip install torch==2.5.1+cu121 torchaudio==2.5.1+cu121 torchvision --index-url https://download.pytorch.org/whl/cu121,supported_external,kept,supported
+EVAL_014,AiuniAI/Unique3D,artifact_ref,v1-inference.yaml,v1-inference.yaml,drifted,kept,drifted_high
+EVAL_015,newton-physics/newton,artifact_ref,/github.com/newton-physics/newton/blob/main/newton/examples/diffsim/example_diffsim_bear.py,"<a href=""https://github.com/newton-physics/newton/blob/main/newton/examples/diffsim/example_diffsim_bear.py"">",excluded,excluded,
+EVAL_016,NVIDIA/warp,python_module,warp.examples.browse,python -m warp.examples.browse,uncertain,kept,uncertain
+EVAL_017,sairajk/easi-tex,artifact_ref,42-ip1.0-cn1.0-dist0.8-gs10.0-p36-h20-us0.4-vt0.1/update/mesh/19.obj,42-ip1.0-cn1.0-dist0.8-gs10.0-p36-h20-us0.4-vt0.1/update/mesh/19.obj,drifted,kept,drifted_high
+EVAL_018,sstklen/trump-code,python_script,trump_code_cli.py,python3 trump_code_cli.py signals,supported,kept,supported
+EVAL_019,subzeroid/instagrapi-rest,python_module,venv,python3 -m venv .venv,uncertain,kept,uncertain
+EVAL_020,Quivnex/blankly-finance,artifact_ref,bot.py,bot.py,drifted,kept,supported
+EVAL_021,benkruger/flow,artifact_ref,worktrees/invoice-pdf-export,.worktrees/invoice-pdf-export,excluded,excluded,
+EVAL_022,openagents-org/openagents,generic_command,,curl | bash,supported_external,kept,supported
+EVAL_023,randyzwitch/streamlit-folium,pip_install_pkg,streamlit-folium,pip install streamlit-folium,supported_external,kept,supported
+EVAL_024,pushingkarmaorg/python-plexapi,artifact_ref,tools/plex-boostraptest.py,tools/plex-boostraptest.py,drifted,kept,drifted_high
+EVAL_025,psi-oss/get-physics-done,artifact_ref,/gpd:settings,/gpd:settings,excluded,excluded,
+EVAL_026,bionicles/tree_plus,python_module,tree_plus_cli,python -m tree_plus_cli -s tests/more_languages/group_todo,uncertain,kept,uncertain
+EVAL_027,PyThaiNLP/pythainlp,artifact_ref,pyproject.toml,pyproject.toml,supported,kept,supported
+EVAL_028,Z1hanW/CRISP-Real2Sim,bash_script,vis.sh,bash vis.sh ${SEQ_NAME},excluded,excluded,
+EVAL_029,zhound420/swarm-trader,python_script,rebalance.py,poetry run python rebalance.py --mode swing,supported,kept,supported
+EVAL_030,psi-oss/get-physics-done,artifact_ref,/gpd-help,/gpd-help,excluded,excluded,
+EVAL_031,Aherontas/Pycon_Greece_2025_Presentation_Agents,cd_dir,Tech_Trends_Agent,cd Tech_Trends_Agent,drifted,kept,drifted_high
+EVAL_032,helallao/perplexity-ai,pytest_cmd,,pytest tests/test_utils.py -v,supported,kept,supported
+EVAL_033,kha-white/manga-ocr,python_module,manga_ocr,python -m manga_ocr,uncertain,kept,uncertain
+EVAL_034,zhound420/swarm-trader,poetry_install,,poetry install,supported,kept,supported
+EVAL_035,aorwall/moatless-tools,cd_dir,moatless-tools,cd moatless-tools,supported_sequence,kept,supported
+EVAL_036,open-webui/pipelines,local_link_ref,/examples/filters/langfuse_filter_pipeline.py,- [**Message Monitoring Using Langfuse**](/examples/filters/langfuse_filter_pipeline.py): Monitor and analyze message interactions in real-time using Langfuse.,supported,kept,supported
+EVAL_037,HOLYKEYZ/IntellectSafe,cd_dir,IntellectSafe,cd IntellectSafe,supported_sequence,kept,supported
+EVAL_038,deepinv/deepinv,artifact_ref,User Guide <https:/deepinv.github.io/deepinv/user_guide.html,User Guide <https://deepinv.github.io/deepinv/user_guide.html>,excluded,excluded,
+EVAL_039,bennjordan/PlateShapez,pytest_cmd,,uv run pytest tests/test_pipeline.py,supported,kept,supported
+EVAL_040,fossasia/eventyay,python_script,manage.py,python manage.py runserver,supported,kept,supported
+EVAL_041,ParisNeo/lollms_hub,cd_dir,lollms_hub,cd lollms_hub,supported_sequence,kept,supported
+EVAL_042,asklokesh/loki-mode,cd_dir,loki-mode,cd loki-mode,supported_sequence,kept,supported
+EVAL_043,psi-oss/get-physics-done,artifact_ref,gpd/observability/current-session.json,.gpd/observability/current-session.json,drifted,kept,drifted_high
+EVAL_044,bennjordan/PlateShapez,cd_dir,plateshapez,cd plateshapez,supported_sequence,kept,supported
+EVAL_045,NeptuneHub/AudioMuse-AI,artifact_ref,dokcer-compose-emby.yaml,"> You also have docker-compose-navidrome.yaml, docker-compose-lyrion.yaml, dokcer-compose-emby.yaml",drifted,kept,drifted_high
+EVAL_046,python/cpython,make_target,buildbottest,make buildbottest,drifted,kept,drifted_medium
+EVAL_047,mholzi/beatify,local_link_ref,docs/WEBSOCKET.md,Developer docs: [Architecture](docs/ARCHITECTURE.md) | [WebSocket API](docs/WEBSOCKET.md) | [Changelog](CHANGELOG.md),drifted,kept,drifted_high
+EVAL_048,vmware/pyvmomi,artifact_ref,pypi <https:/pypi.python.org/pypi/pyvmomi/,pypi <https://pypi.python.org/pypi/pyvmomi/>,excluded,excluded,
+EVAL_049,sparckles/Robyn,pip_install_editable,/repos/Robyn/target/wheels/robyn-0.63.0-cp312-cp312-macosx_10_15_universal2.whl,pip install -e /repos/Robyn/target/wheels/robyn-0.63.0-cp312-cp312-macosx_10_15_universal2.whl,drifted,kept,drifted_high
+EVAL_050,siliconcompiler/siliconcompiler,python_module,venv,python3 -m venv .venv        # Setup virtual environment,uncertain,kept,uncertain
+EVAL_051,StdioA/beancount-bot,artifact_ref,config.yaml,config.yaml,drifted,kept,drifted_high
+EVAL_052,frej/fast-export,cd_dir,repo-git,cd repo-git,drifted,kept,drifted_high
+EVAL_053,rachelos/we-mp-rss,cd_dir,we-mp-rss/web_ui,cd we-mp-rss/web_ui,supported,kept,supported
+EVAL_054,scottrogowski/code2flow,artifact_ref,myjavascriptfile.js,myjavascriptfile.js,drifted,kept,drifted_high
+EVAL_055,nerfstudio-project/nerfstudio,cd_dir,nerfstudio,cd nerfstudio,supported_sequence,kept,supported
+EVAL_056,egbertbouman/youtube-comment-downloader,artifact_ref,ScMzIvxBSi4.json,ScMzIvxBSi4.json,drifted,kept,drifted_high
+EVAL_057,janushendersonassetallocation/loman,make_target,test,make test,drifted,kept,drifted_medium
+EVAL_058,sphinx-extensions2/sphinx-timeline,pip_install_pkg,sphinx-timeline,pip install sphinx-timeline,supported_external,kept,supported
+EVAL_059,HKUDS/LightRAG,cd_dir,LightRAG,cd LightRAG,supported_sequence,kept,supported
+EVAL_060,eunomia-bpf/bpf-benchmark,artifact_ref,micro/results/dev/,micro/results/dev/,supported,kept,supported
+EVAL_061,Datalux/Osintgram,make_target,setup,make setup,supported,kept,supported
+EVAL_062,TracecatHQ/tracecat,artifact_ref,deployments/k8s,deployments/k8s,drifted,kept,drifted_high
+EVAL_063,Akegarasu/lora-scripts,run_shell_script,run_gui.sh,bash run_gui.sh,supported,kept,supported
+EVAL_064,martinopiaggi/summarize,python_module,summarizer,python -m summarizer \,uncertain,kept,uncertain
+EVAL_065,vmware/pyvmomi,python_script,setup.py,python setup.py install,drifted,kept,drifted_high
+EVAL_066,chrisdev/django-pandas,artifact_ref,Christopher Clarke <https:/github.com/chrisdev,Christopher Clarke <https://github.com/chrisdev>,excluded,excluded,
+EVAL_067,ollo69/ha-smartthinq-sensors,artifact_ref,mkdir ~/.homeassistant/custom_components,mkdir ~/.homeassistant/custom_components,excluded,excluded,
+EVAL_068,explosion/confection,artifact_ref,config.cfg,config.cfg,drifted,kept,drifted_high
+EVAL_069,benchopt/benchopt,artifact_ref,Results <https:/benchopt.github.io/results/benchmark_lasso.html,Results <https://benchopt.github.io/results/benchmark_lasso.html>,excluded,excluded,
+EVAL_070,pocketpaw/pocketpaw,generic_command,,python3 -m pip install --upgrade pip,supported_external,kept,supported
+EVAL_071,beda-software/drf-writable-nested,pytest_cmd,,py.test,supported,kept,supported
+EVAL_072,stevetran77/weather-api-project,docker_compose_up,,docker compose up -d db,supported,kept,supported
+EVAL_073,nedbat/pkgsample,make_target,clean,make clean,supported,kept,supported
+EVAL_074,BUPT-GAMMA/OpenHGNN,artifact_ref,openhgnn.config.ini,"set the different hyper-parameter, modify the [openhgnn.config.ini](../openhgnn/config.ini) manually. The best_config",drifted,kept,drifted_high
+EVAL_075,apocas/restai,cd_dir,restai,cd restai,supported_sequence,kept,supported
+EVAL_076,yakhyo/uniface,pip_install_editable,,pip install -e .,supported,kept,supported
+EVAL_077,pedroCabrera/PyFlow,pip_install_pkg,,pip install git+https://github.com/pedroCabrera/PyFlow.git@release,supported,kept,supported
+EVAL_078,themanojdesai/python-a2a,artifact_ref,network.json,network.json,drifted,kept,drifted_high
+EVAL_079,qlands/FormShare,artifact_ref,development.ini,- Changing the encryption key (aes.key) in the development.ini file.,drifted,kept,drifted_high
+EVAL_080,microsoft/apm,artifact_ref,Cargo.toml,"Think `package.json`, `requirements.txt`, or `Cargo.toml` — but for AI agent configuration.",drifted,kept,drifted_high
+EVAL_081,QData/TextAttack,python_module,textattack,python -m textattack ...,uncertain,kept,uncertain
+EVAL_082,martinopiaggi/summarize,python_module,summarizer,"python -m summarizer --source ""URL"" --language ""auto""",uncertain,kept,uncertain
+EVAL_083,collective/icalendar,artifact_ref,install icalendar <https:/icalendar.readthedocs.io/en/stable/install.html,install icalendar <https://icalendar.readthedocs.io/en/stable/install.html>,excluded,excluded,
+EVAL_084,kiwitcms/Kiwi,artifact_ref,newsletter <https:/kiwitcms.us17.list-manage.com/subscribe/post?u=9b57a21155a3b7c655ae8f922&id=c970a37581,newsletter <https://kiwitcms.us17.list-manage.com/subscribe/post?u=9b57a21155a3b7c655ae8f922&id=c970a37581>,excluded,excluded,
+EVAL_085,Aherontas/Pycon_Greece_2025_Presentation_Agents,artifact_ref,app/agents/new_agent_service.py,app/agents/new_agent_service.py,drifted,kept,drifted_high
+EVAL_086,sparckles/Robyn,pip_install_editable,path/to/robyn/target/wheels/robyn-<version>-<python_version>-<platform>.whl,pip install -e path/to/robyn/target/wheels/robyn-<version>-<python_version>-<platform>.whl,drifted,kept,drifted_high
+EVAL_087,yusufkaraaslan/Skill_Seekers,artifact_ref,configs/custom.json,configs/custom.json,drifted,kept,drifted_high
+EVAL_088,miaucl/bring-api,python_module,venv,python -m venv .venv,uncertain,kept,uncertain
+EVAL_089,markdrago/pgsanity,make_target,install,make install clean,drifted,kept,drifted_high
+EVAL_090,On-JungWoan/BIGS,run_shell_script,scripts/demo.sh,bash scripts/demo.sh,drifted,kept,drifted_high
+EVAL_091,Datalux/Osintgram,artifact_ref,compose.yml,You can use the `docker-compose.yml` file this single command:,excluded,excluded,
+EVAL_092,cre185/InstantSfM,docker_build,,docker build -t instantsfm .,supported,kept,supported
+EVAL_093,mees/calvin,cd_dir,task_D_D,cd task_D_D,drifted,kept,drifted_high
+EVAL_094,computationalmodelling/nbval,pytest_cmd,,py.test,supported,kept,supported
+EVAL_095,teknovizier/tekla_mcp_server,artifact_ref,your-username/tekla-attribute-model,your-username/tekla-attribute-model,excluded,excluded,
+EVAL_096,peterjohnsonhuang/3dgic,artifact_ref,data/bear/inpaint_2d_unseen_mask/images,data/bear/inpaint_2d_unseen_mask/images,uncertain,kept,uncertain
+EVAL_097,unslothai/unsloth,cd_dir,unsloth_studio,cd unsloth_studio,drifted,kept,drifted_high
+EVAL_098,recommenders-team/recommenders,python_module,ipykernel,"python -m ipykernel install --user --name recommenders --display-name ""Python (recommenders)""",uncertain,kept,uncertain
+EVAL_099,tensology/decisionsai,python_script,bin/setup_vosk.py,python bin/setup_vosk.py,supported,kept,supported
+EVAL_100,CronusL-1141/AI-company,cd_dir,AI-company/ai-team-os,cd AI-company/ai-team-os,drifted,kept,drifted_high
+EVAL_101,helallao/perplexity-ai,pytest_cmd,,pytest tests/ -v,supported,kept,supported
+EVAL_102,conda-forge/staged-recipes,artifact_ref,setup.py,This should be the default install line for most Python packages. This is preferable to `python setup.py` because it handles metadata in a `conda`-friendlier way.,drifted,kept,drifted_high
+EVAL_103,kokkos/pykokkos,cd_dir,pykokkos,cd pykokkos/,supported_sequence,kept,supported
+EVAL_104,carlosferrazza/humanoid-bench,python_module,tdmpc2.train,"python -m tdmpc2.train disable_wandb=False wandb_entity=[WANDB_ENTITY] exp_name=tdmpc task=humanoid_${TASK} seed=0 policy_path=${POLICY_PATH} mean_path=${MEAN_PATH} var_path=${VAR_PATH} policy_type=""reach_single""",uncertain,kept,uncertain
+EVAL_105,bkdevs/async-server,artifact_ref,async-firebase.json,"Create a firebase config file with name ""async-firebase.json"".",drifted,kept,drifted_high
+EVAL_106,buddy-compiler/buddy-mlir,local_link_ref,/docs/ManylinuxReleaseNotes.md,See [Manylinux release notes](./docs/ManylinuxReleaseNotes.md) for current,drifted,kept,drifted_high
+EVAL_107,SakanaAI/ShinkaEvolve,artifact_ref,evo_config/db_config/job_config,evo_config/db_config/job_config,drifted,kept,drifted_high
+EVAL_108,eunomia-bpf/bpf-benchmark,make_target,compare,make compare OLD=a.json NEW=b.json   # diff two result JSON files,drifted,kept,drifted_medium
+EVAL_109,Vid2Sim/Vid2Sim,pip_install_editable,submodules/vid2sim-rasterizer,pip install -e submodules/vid2sim-rasterizer,drifted,kept,drifted_high
+EVAL_110,booo2233/imgbatch,python_module,imgbatch,python -m imgbatch --help,uncertain,kept,uncertain
+EVAL_111,HPAI-BSC/pgeon,artifact_ref,example/cartpole/demo.py,3. Open and execute `examples/cartpole/demo.ipynb` or `uv run example/cartpole/demo.py`.,supported,kept,supported
+EVAL_112,scottrogowski/code2flow,artifact_ref,mypythonfile.py,mypythonfile.py,drifted,kept,drifted_high
+EVAL_113,emfcamp/Website,docker_compose_up,,docker compose up,supported,kept,supported
+EVAL_114,aiming-lab/AutoResearchClaw,python_module,venv,python3 -m venv .venv,uncertain,kept,uncertain
+EVAL_115,themanojdesai/python-a2a,artifact_ref,research_workflow.py,research_workflow.py,drifted,kept,drifted_high
+EVAL_116,HOLYKEYZ/IntellectSafe,python_module,uvicorn,python -m uvicorn app.main:app --reload --port 8001,uncertain,kept,uncertain
+EVAL_117,janushendersonassetallocation/loman,make_target,install,make install,drifted,kept,drifted_medium
+EVAL_118,foundryzero/binder-trace,artifact_ref,adb push frida-server /data/local/tmp,adb push frida-server /data/local/tmp,excluded,excluded,
+EVAL_119,eerovil/TrackLater,artifact_ref,app.py,app.py,drifted,kept,drifted_high
+EVAL_120,radiac/nanodjango,artifact_ref,script.py,script.py,drifted,kept,drifted_high
+EVAL_121,zeeyado/quran-ebook,artifact_ref,plugins/,plugins/,drifted,kept,drifted_high
+EVAL_122,neulab/langrank,artifact_ref,setup.py,python3 setup.py install,drifted,kept,drifted_high
+EVAL_123,Kludex/starlette,artifact_ref,example.py,example.py,drifted,kept,drifted_high
+EVAL_124,apple/ml-l3m,artifact_ref,fsdp/dp_shard,fsdp/dp_shard,excluded,excluded,
+EVAL_125,rachelos/we-mp-rss,cd_dir,we-mp-rss,cd we-mp-rss,supported_sequence,kept,supported
+EVAL_126,jschneier/django-storages,pip_install_editable,,pip install -e 'git+https://github.com/jschneier/django-storages.git#egg=django-storages',drifted,kept,drifted_high
+EVAL_127,chopratejas/headroom,python_script,examples/needle_in_haystack_test.py,python examples/needle_in_haystack_test.py,drifted,kept,drifted_high
+EVAL_128,NovaSky-AI/SkyThought,artifact_ref,skythought/skythought-rl,skythought/skythought-rl,supported,kept,supported
+EVAL_129,theOGognf/finagg,pip_install_pkg,/finagg/,pip install ./finagg/,supported,kept,supported
+EVAL_130,pex-tool/pex,python_module,pex,python -m pex,uncertain,kept,uncertain
+EVAL_131,lorien/grab,artifact_ref,g.go,g.go,drifted,kept,drifted_high
+EVAL_132,bitwize-music-studio/claude-ai-music-skills,artifact_ref,/.bitwize-music/config.yaml,/.bitwize-music/config.yaml,drifted,kept,drifted_high
+EVAL_133,psi-oss/get-physics-done,artifact_ref,gpd/traces/,.gpd/traces/,drifted,kept,drifted_high
+EVAL_134,River-Zhang/SIFU,python_module,apps.infer,python -m apps.infer -cfg ./configs/sifu.yaml -gpu 0 -in_dir ./examples -out_dir ./results -loop_smpl 100 -loop_cloth 200 -hps_type pixie,uncertain,kept,uncertain
+EVAL_135,tensology/decisionsai,python_script,bin/setup.py,python bin/setup.py,supported,kept,supported
+EVAL_136,PlanExeOrg/PlanExe,artifact_ref,001-1-start_time.json,001-1-start_time.json,drifted,kept,drifted_high
+EVAL_137,noamgat/lm-format-enforcer,python_module,vllm.entrypoints.openai.api_server,python -m vllm.entrypoints.openai.api_server \,uncertain,kept,uncertain
+EVAL_138,black-forest-labs/flux,cd_dir,flux,cd flux,supported_sequence,kept,supported
+EVAL_139,voxel51/fiftyone,artifact_ref,/raw.githubusercontent.com/Homebrew/install/HEAD/install.sh,/raw.githubusercontent.com/Homebrew/install/HEAD/install.sh,excluded,excluded,
+EVAL_140,loadsmart/django-jaiminho,tox_cmd,,tox -e py39,drifted,kept,drifted_medium
+EVAL_141,jupyter-incubator/sparkmagic,artifact_ref,customauthenticator.py,customauthenticator.py,drifted,kept,drifted_high
+EVAL_142,aturret/FastFetchBot,python_module,core.main,uv run python -m core.main,uncertain,kept,uncertain
+EVAL_143,nedbat/pkgsample,pip_install_pkg,/path/to/pkgsample-0.1.0-py3-none-any.whl,python -m pip install /path/to/pkgsample-0.1.0-py3-none-any.whl,drifted,kept,drifted_medium
+EVAL_144,yusufkaraaslan/Skill_Seekers,python_module,skill_seekers.mcp.server_fastmcp,python -m skill_seekers.mcp.server_fastmcp,uncertain,kept,uncertain
+EVAL_145,jkulhanek/tetra-nerf,python_module,tetranerf.scripts.process_mipnerf360,"python -m tetranerf.scripts.process_mipnerf360 --downscale-factor <2 for indoor, 4 for outdoor scenes> --run-dense --path data/mipnerf360/<scene>",uncertain,kept,uncertain
+EVAL_146,Ruya-AI/cozempic,artifact_ref,~/.claude/commands/,~/.claude/commands/,excluded,excluded,
+EVAL_147,gzerveas/mvts_transformer,cd_dir,mvts_transformer,cd mvts_transformer/,supported_sequence,kept,supported
+EVAL_148,kunal12203/Codex-CLI-Compact,artifact_ref,Node.js,"**Prerequisites:** Python 3.10+, Node.js 18+, Claude Code or Codex CLI. The installer detects missing tools and offers to install them via winget (Windows) or homebrew (macOS).",excluded,excluded,
+EVAL_149,lutris/website,make_target,test,make test,supported,kept,supported
+EVAL_150,matmaer/chezmoi-mousse,python_module,chezmoi_mousse,python -m chezmoi_mousse,uncertain,kept,uncertain
+EVAL_151,squidfunk/mkdocs-material,make_target,it,"Make it yours – change the colors, fonts, language, icons, logo, and more with",excluded,excluded,
+EVAL_152,toniantunovi/lucidshark,artifact_ref,mcp.json,.mcp.json,drifted,kept,drifted_high
+EVAL_153,NaturalHistoryMuseum/ckanext-doi,pip_install_pkg,$INSTALL_FOLDER/src/ckanext-doi,pip install $INSTALL_FOLDER/src/ckanext-doi,drifted,kept,drifted_medium
+EVAL_154,NousResearch/hermes-agent,pip_install_editable,/tinker-atropos,"uv pip install -e ""./tinker-atropos""",drifted,kept,drifted_high
+EVAL_155,stickerdaniel/linkedin-mcp-server,artifact_ref,--chrome-path /path/to/chrome,--chrome-path /path/to/chrome,excluded,excluded,
+EVAL_156,zulip/zulip,make_target,remote,"make remote work productive and delightful. Fortune 500 companies, [leading open",drifted,kept,drifted_medium
+EVAL_157,python/cpython,artifact_ref,PEP 790 <https:/peps.python.org/pep-0790/,PEP 790 <https://peps.python.org/pep-0790/>,excluded,excluded,
+EVAL_158,inworld-ai/tts,make_target,help,make help           # Show all available commands,supported,kept,supported
+EVAL_159,gramps-project/addons-source,make_cmd,,python3 make.py gramps60 listing AddonDirectory,supported,kept,supported
+EVAL_160,newton-physics/newton,generic_command,,python,supported_external,kept,supported
+EVAL_161,pex-tool/pex,artifact_ref,webserver.py,Run webserver.py in an environment containing ``flask`` as a quick way to experiment:,drifted,kept,drifted_high
+EVAL_162,teknovizier/tekla_mcp_server,artifact_ref,test_mcp_server.py,test_mcp_server.py,supported,kept,supported
+EVAL_163,SergeyPirogov/webdriver_manager,artifact_ref,/usr/bin/opera,/usr/bin/opera,excluded,excluded,
+EVAL_164,zhound420/swarm-trader,python_script,gather_data.py,poetry run python gather_data.py --mode day --tickers $TICKERS --output /tmp/data.json,supported,kept,supported
+EVAL_165,kkaitlyn111/cs336-assignment1,generic_command,,uv,supported_external,kept,supported
+EVAL_166,ollo69/ha-smartthinq-sensors,artifact_ref,/config/www/laundry.js,/config/www/laundry.js,drifted,kept,drifted_high
+EVAL_167,PasseiDireto/gh-runner-task-action,artifact_ref,task-params.json,task-params.json,drifted,kept,drifted_high
+EVAL_168,ets-labs/python-dependency-injector,artifact_ref,Aiohttp example <https:/python-dependency-injector.ets-labs.org/examples/aiohttp.html,Aiohttp example <https://python-dependency-injector.ets-labs.org/examples/aiohttp.html>,excluded,excluded,
+EVAL_169,husnainpk/SymDex,artifact_ref,auth/utils.py,auth/utils.py,drifted,kept,drifted_high
+EVAL_170,justrach/turboAPI,make_target,hooks,make hooks                                     # install pre-commit hook,supported,kept,supported
+EVAL_171,martinopiaggi/summarize,python_module,streamlit,python -m streamlit run app.py,uncertain,kept,uncertain
+EVAL_172,anishathalye/dotbot,cd_dir,dotfiles,cd dotfiles,drifted,kept,drifted_high
+EVAL_173,elmotec/massedit,artifact_ref,test.py,"python -m massedit -e ""re.sub('assertEquals', 'assertEqual', line)"" test.py",drifted,kept,drifted_high
+EVAL_174,yusufkaraaslan/Skill_Seekers,artifact_ref,/wf-b.yaml,/wf-b.yaml,drifted,kept,drifted_high
+EVAL_175,bionicles/tree_plus,make_target,library_demo,make library_demo,drifted,kept,drifted_medium
+EVAL_176,inworld-ai/tts,make_target,test-coverage,make test-coverage  # Run tests with coverage report,drifted,kept,drifted_medium
+EVAL_177,JelleZijlstra/autotyping,artifact_ref,failures.json,`pyanalyze --json-output failures.json -e suggested_return_type -e suggested_parameter_type -v .`,drifted,kept,drifted_high
+EVAL_178,aiming-lab/AutoResearchClaw,artifact_ref,config.yaml,config.yaml,drifted,kept,drifted_high
+EVAL_179,djsudduth/keep-it-markdown,artifact_ref,settings.cfg,At first launch KIM will create a **settings.cfg** file in the directory where you chose to install KIM. You can modify these settings with a text editor:,drifted,kept,drifted_high
+EVAL_180,matt-kempster/m2c,artifact_ref,/run_tests.py --overwrite,./run_tests.py --overwrite,excluded,excluded,
+EVAL_181,SoftwareEngineer-node/SmartTravel-ai-service,generic_command,,docker push mjunaidca/nextjs_travel_ai:latest,supported_external,kept,supported
+EVAL_182,Vortiago/mcp-outline,cd_dir,mcp-outline,cd mcp-outline,supported_sequence,kept,supported
+EVAL_183,tlsfuzzer/python-ecdsa,artifact_ref,to_der()/from_der,to_der()/from_der(),excluded,excluded,
+EVAL_184,kang-wu/SkySensePlusPlus,artifact_ref,deforestation_atlantic_test.json,deforestation_atlantic_test.json,drifted,kept,drifted_high
+EVAL_185,zhudotexe/fanoutqa,python_module,spacy,python -m spacy download en_core_web_sm,uncertain,kept,uncertain
+EVAL_186,langflow-ai/openrag,pip_install_pkg,openrag-sdk,pip install openrag-sdk,supported_external,kept,supported
+EVAL_187,Quivnex/blankly-finance,artifact_ref,blankly.json,blankly.json,drifted,kept,drifted_high
+EVAL_188,tlsfuzzer/python-ecdsa,tox_cmd,,tox -e speedgmpy2,supported,kept,supported
+EVAL_189,django/djangoproject.com,make_cmd,,make,supported,kept,supported
+EVAL_190,themanojdesai/python-a2a,artifact_ref,analysis_tools.py,analysis_tools.py,drifted,kept,drifted_high
+EVAL_191,diafygi/acme-tiny,artifact_ref,renew_cert.sh,renew_cert.sh,drifted,kept,drifted_high
+EVAL_192,spyoungtech/helldivers2-macros,pip_install_pkg,ahk[binary,pip install ahk[binary],supported_external,kept,supported
+EVAL_193,sunlabuiuc/PyHealth,artifact_ref,Video] <https:/www.youtube.com/watch?v=lADFlcmLtdE&list=PLR3CNIF8DDHJUl8RLhyOVpX_kT4bxulEV&index=14,[Video] <https://www.youtube.com/watch?v=lADFlcmLtdE&list=PLR3CNIF8DDHJUl8RLhyOVpX_kT4bxulEV&index=14>,excluded,excluded,
+EVAL_194,THU-MIG/yoloe,artifact_ref,tools/eval_fixed_ap.py,tools/eval_fixed_ap.py,supported,kept,supported
+EVAL_195,helallao/perplexity-ai,pytest_cmd,,pytest tests/ --cov=perplexity --cov=perplexity_async --cov-report=html,supported,kept,supported
+EVAL_196,daltonmaag/vttLib,python_module,vttLib,python -m vttLib --help,uncertain,kept,uncertain
+EVAL_197,mholzi/beatify,local_link_ref,CONTRIBUTING.md,"Contributions welcome! Whether it's a new playlist, a bug fix, or a translation — check our [**CONTRIBUTING.md**](CONTRIBUTING.md) for the full guide.",drifted,kept,drifted_high
+EVAL_198,decargroup/pykoop,cd_dir,git/hooks,cd .git/hooks/,drifted,kept,drifted_high
+EVAL_199,pex-tool/pex,artifact_ref,dev-cmd <https:/pypi.org/project/dev-cmd/,dev-cmd <https://pypi.org/project/dev-cmd/>,excluded,excluded,
+EVAL_200,unslothai/unsloth,run_shell_script,astral.sh/uv/install.sh,curl -LsSf https://astral.sh/uv/install.sh | sh,excluded,excluded,

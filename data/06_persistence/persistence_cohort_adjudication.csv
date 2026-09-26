@@ -1,0 +1,48 @@
+case_id,full_name,claim_type,artifact_or_path,adjudicated_label,label_source,justification,event_fixed,duration_days,left_truncated
+P001,Aherontas/Pycon_Greece_2025_Presentation_Agents,artifact_ref,app/agents/new_agent_service.py,uncertain,coders_consensus (evaluation set EVAL_085),README explicitly tells the reader to create the new agent service file,0,3,0
+P002,AiuniAI/Unique3D,artifact_ref,v1-inference.yaml,uncertain,coders_consensus (evaluation set EVAL_014),inside ckpt/ weights downloaded by user from HF/Tsinghua; not in tree,0,413,0
+P005,ColinDuquesnoy/QDarkStyleSheet,artifact_ref,Qt.py,not-a-claim,author,"Qt.py is a third-party package (mottosso/Qt.py), not a file of this repository.",0,1349,1
+P006,DC-analysis/dclab,artifact_ref,_version.py,not-a-claim,author,An --exclude pattern for a build-generated version file; nothing is required to exist and nothing fails if it is absent.,0,803,1
+P008,IBM/jsonsubschema,artifact_ref,s1.json,supported,author,Created by the echo redirect in the immediately preceding step (sequence context); the run-time lexicon does not cover shell redirects.,0,1798,0
+P009,JelleZijlstra/autotyping,artifact_ref,failures.json,uncertain,coders_consensus (evaluation set EVAL_177),failures.json is produced at run time by pyanalyze --json-output,0,557,0
+P011,Kludex/starlette,artifact_ref,example.py,not-a-claim,coders_consensus (evaluation set EVAL_123),example.py is an illustrative filename for the reader's example application,0,628,1
+P013,NaturalHistoryMuseum/ckanext-doi,artifact_ref,Dockerfile,supported,author,"Prose refers generically to the Dockerfiles in docker/, which exist under suffixed names; docker compose build resolves them through docker-compose.yml.",0,732,0
+P015,On-JungWoan/BIGS,run_shell_script,scripts/demo.sh,drifted,coders_consensus (evaluation set EVAL_090),scripts/ exists but scripts/demo.sh absent,0,249,0
+P019,QData/TextAttack,artifact_ref,config.yaml,not-a-claim,author,A file in the user's cache directory written by the tool; not a repository artifact.,0,1449,1
+P020,QueraTeam/django-qsessions,python_script,manage.py,not-a-claim,author,manage.py belongs to the reader's own Django project; django-qsessions is a reusable app. (Recorded as fixed because the passage was later reworded.),1,31,0
+P021,Quivnex/blankly-finance,artifact_ref,blankly.json,uncertain,coders_consensus (evaluation set EVAL_187),blankly.json generated at run time by blankly init,0,30,1
+P025,StdioA/beancount-bot,artifact_ref,config.yaml,supported,coders_consensus (evaluation set EVAL_051),created by documented copy from config.yaml.example (present at root),0,636,1
+P029,aiming-lab/AutoResearchClaw,artifact_ref,config.yaml,supported,coders_consensus (evaluation set EVAL_178),config.yaml created by documented copy from config.researchclaw.example.yaml in same block,0,156,1
+P031,arabcoders/ytptube,artifact_ref,compose.yaml,uncertain,coders_consensus (evaluation set EVAL_006),absent at snapshot (compose.yaml added after 5 Mar 2026); README gives example file for user to create; judged snapshot,1,196,1
+P035,buddy-compiler/buddy-mlir,local_link_ref,/docs/ManylinuxReleaseNotes.md,drifted,coders_consensus (evaluation set EVAL_106),local link docs/ManylinuxReleaseNotes.md absent from tree,0,192,0
+P038,chroma-core/chroma-mcp,artifact_ref,claude_desktop_config.json,not-a-claim,author,"Configuration file on the user's machine (Claude Desktop), explicitly 'your' file.",0,217,0
+P039,conda-forge/staged-recipes,python_script,setup.py,not-a-claim,coders_consensus (evaluation set EVAL_102),general prose about python setup.py; not a reference to this repo (staged-recipes has no such file),0,6,1
+P040,csparpa/pyowm,pip_requirements,requirements.txt,uncertain,author,The instruction applies to the develop branch after an explicit checkout; the default-branch tree cannot verify it.,0,0,0
+P041,daltonmaag/vttLib,artifact_ref,setup.py,drifted,author,Genuine maintainer instruction naming a repository file that no longer exists (build moved to pyproject.toml).,0,1344,0
+P044,diafygi/acme-tiny,artifact_ref,renew_cert.sh,uncertain,coders_consensus (evaluation set EVAL_191),README tells the reader to make the renewal script; renew_cert.sh is user-created,0,3805,0
+P048,djsudduth/keep-it-markdown,artifact_ref,settings.cfg,uncertain,coders_consensus (evaluation set EVAL_179),settings.cfg created by the tool at first launch,0,2122,0
+P049,dlt-hub/dlt,artifact_ref,response.json,not-a-claim,author,A Python method call (requests Response.json()) inside a code example; extractor error.,1,130,1
+P050,egbertbouman/youtube-comment-downloader,artifact_ref,ScMzIvxBSi4.json,uncertain,coders_consensus (evaluation set EVAL_056),output file produced at run time by --output,0,2203,0
+P053,fhamborg/news-please,artifact_ref,article.json,uncertain,author,Output file written by the example code itself; the codebook labels run-time outputs uncertain.,0,1105,0
+P054,furthemore/APIS,artifact_ref,docker-compose.yml,drifted,author,"The reader is told to fetch a named file from this repository; the file exists under a different extension (.yaml). Naming drift, easily resolved by a reader but structurally inconsistent.",0,842,0
+P055,huggingface/upskill,artifact_ref,batch_summary.json,uncertain,author,Run-time output described in the tool's log layout.,1,0,0
+P061,iszhanjiawei/indexTTS2,artifact_ref,config.yaml,uncertain,author,Downloaded from the Hugging Face model repository by the preceding command; not shipped in this repository (same treatment as v1-inference.yaml in the evaluation set).,0,5,1
+P062,jacob-bd/notebooklm-mcp-cli,cd_dir,notebooklm-mcp,drifted,author,"The cd target does not match the directory the preceding clone creates (D4, directory navigation).",0,151,1
+P063,jmcentire/pact,artifact_ref,access_graph.json,not-a-claim,author,"Generated file inside the user's own project layout (my-project/), not a file of this repository.",0,181,0
+P064,kang-wu/SkySensePlusPlus,artifact_ref,deforestation_atlantic_val.json,not-a-claim,author,"External dataset file under ../rs_datasets/, downloaded from another site; outside the repository.",0,1,0
+P066,lae/ansible-role-proxmox,artifact_ref,install_proxmox.yml,uncertain,author,The README tells the reader to create the file (same treatment as renew_cert.sh in the evaluation set).,0,2029,1
+P068,lightning-rod-labs/sculpt,artifact_ref,pipeline_config.yaml,uncertain,author,User-authored configuration file whose content the README shows; not shipped.,0,184,0
+P069,lorien/grab,artifact_ref,g.go,not-a-claim,coders_consensus (evaluation set EVAL_131),"g.go is a Python method call in example code, not a file",1,10,1
+P071,markdrago/pgsanity,make_target,install,not-a-claim,coders_consensus (evaluation set EVAL_089),"make install run from FreeBSD ports path on user machine (/usr/ports/...), not repo",0,2743,0
+P073,mees/calvin,cd_dir,task_D_D,uncertain,coders_consensus (evaluation set EVAL_093),"task_D_D is a downloaded dataset directory, not a repo artifact",0,926,0
+P075,microsoft/apm,artifact_ref,Cargo.toml,not-a-claim,coders_consensus (evaluation set EVAL_080),"Cargo.toml named illustratively in prose (analogy), not a repo artifact",0,53,1
+P077,nschloe/tuna,make_target,dep,drifted,author,"Genuine development instruction; the repository has no Makefile, so make dep fails (D2, Make target). Recorded as fixed later in history.",1,1705,0
+P078,nutti/Screencast-Keys,local_link_ref,docs/installation.md#support-version,supported,author,"The linked file exists; the anchor cannot be checked from the tree and the codebook verifies the file, not the fragment.",0,1098,0
+P079,ollo69/ha-smartthinq-sensors,artifact_ref,/config/www/laundry.js,not-a-claim,coders_consensus (evaluation set EVAL_166),/config/www/laundry.js is a path in the user Home Assistant config,0,1243,1
+P082,pex-tool/pex,artifact_ref,webserver.py,not-a-claim,coders_consensus (evaluation set EVAL_161),webserver.py is an illustrative user script passed to pex,0,397,1
+P083,phoenixthrush/AniWorld-Downloader,artifact_ref,docker-compose.yml,supported,author,"Prose refers to the compose file docker-compose reads; the repository ships docker-compose.yaml, which the tool picks up by default. (Recorded as fixed: the tip was later removed.)",1,51,1
+P088,qlands/FormShare,artifact_ref,development.ini,not-a-claim,coders_consensus (evaluation set EVAL_079),development.ini refers to the deployed /opt/formshare configuration on the user's installation,0,859,1
+P089,sairajk/easi-tex,artifact_ref,42-ip1.0-cn1.0-dist0.8-gs10.0-p36-h20-us0.4-vt0.1/update/mesh/19.obj,uncertain,coders_consensus (evaluation set EVAL_017),output file produced at run time under outputs/,0,63,1
+P092,thammegowda/mtdata,artifact_ref,train.stats.json,uncertain,author,"Run-time output of the tool, shown in a listing of generated files.",0,1639,0
+P093,themanojdesai/python-a2a,artifact_ref,research_workflow.py,not-a-claim,coders_consensus (evaluation set EVAL_115),research_workflow.py is an illustrative user-supplied script argument,0,136,0
+P094,toniantunovi/lucidshark,artifact_ref,mcp.json,uncertain,coders_consensus (evaluation set EVAL_152),.mcp.json generated at runtime by lucidshark init,0,190,1

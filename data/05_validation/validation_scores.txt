@@ -1,0 +1,43 @@
+DEVELOPMENT SET n=200 coder agreement=0.840 kappa=0.634
+[development / final detector] accuracy=0.850 kappa=0.753 drift P=0.500 (5/10) R=0.714 (5/7) F1=0.588
+gold         drifted  not-a-claim  supported  uncertain
+final                                                  
+drifted            5            3          1          1
+not-a-claim        0           23          3          1
+supported          2           11        101          5
+uncertain          0            3          0         41
+
+[development / initial detector] accuracy=0.540 kappa=0.368 drift P=0.075 (6/80) R=0.857 (6/7) F1=0.138
+gold       drifted  not-a-claim  supported  uncertain
+init                                                 
+drifted          6           27         43          4
+supported        1           13         62          4
+uncertain        0            0          0         40
+
+EVALUATION SET n=200 coder agreement=0.880 kappa=0.808 binary-drift kappa=0.814; gold={'supported': 107, 'not-a-claim': 52, 'uncertain': 27, 'drifted': 14}
+[evaluation / final detector] accuracy=0.500 kappa=0.324 drift P=0.165 (13/79) R=0.929 (13/14) F1=0.280
+gold         drifted  not-a-claim  supported  uncertain
+final                                                  
+drifted           13           24         20         22
+not-a-claim        0           25          4          1
+supported          1            3         60          2
+uncertain          0            0         23          2
+
+[evaluation / initial detector] accuracy=0.345 kappa=0.130 drift P=0.097 (10/103) R=0.714 (10/14) F1=0.171
+gold       drifted  not-a-claim  supported  uncertain
+init                                                 
+drifted         10           42         26         25
+supported        4           10         58          1
+uncertain        0            0         23          1
+
+gold                drifted  not-a-claim  supported  uncertain
+stratum                                                       
+drifted                  13           24         20         23
+excluded                  0           25          4          1
+supported                 1            0         38          1
+supported_external        0            3          7          0
+supported_sequence        0            0         15          0
+uncertain                 0            0         23          2
+
+PRECISION-ADJUSTED PREVALENCE: strata sizes {'drifted': 246, 'supported': 2585, 'supported_sequence': 295, 'supported_external': 3591, 'uncertain': 317}; estimated drifted claims 104.6 of 5883 genuine = 1.78% ; bootstrap 95% CI 0.42-4.35%
+confirmed among detector-drifted: 40.0 claims = 0.57% of corpus

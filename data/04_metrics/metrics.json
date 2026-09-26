@@ -1,0 +1,47 @@
+{
+  "n_claims": 7034,
+  "n_repos": 763,
+  "drift_rate": 0.03497298834233722,
+  "support_rate": 0.9199601933466022,
+  "uncertain_rate": 0.04506681831106056,
+  "DRI": 0.884987205004265,
+  "drift_rate_ci95_cluster_boot": [
+    0.029068727236707254,
+    0.04152717500322991
+  ],
+  "repo_any_drift": 0.18872870249017037,
+  "repo_any_drift_n": 144,
+  "repo_any_drift_ci95": [
+    0.16598360655737704,
+    0.21106843753181956
+  ],
+  "repo_drift_rate_mean": 0.03610185584308881,
+  "repo_drift_rate_sd": 0.1048188688065144,
+  "repo_drift_rate_median": 0.0,
+  "repo_zero_drift_share": 0.8112712975098296,
+  "repo_DRI_1_share": 0.6513761467889908,
+  "repo_drift_gt50": 5,
+  "repo_drift_100": 2,
+  "gini_support_rate": 0.0635860000989732,
+  "theil_support_rate": 0.016741367462877473,
+  "robust": {
+    "strict_claim": 0.030139323286892238,
+    "strict_repo": 0.16644823066841416,
+    "primary_claim": 0.03497298834233722,
+    "primary_repo": 0.18872870249017037,
+    "lenient_claim": 0.08003980665339779,
+    "lenient_repo": 0.3486238532110092
+  },
+  "command_excl_cd_drift": 0.01316023475013338,
+  "command_excl_cd_n": 5623,
+  "artifact_family_drift": 0.1438423645320197,
+  "command_family_drift": 0.01661405549094534,
+  "share_actively_verified": 0.4894796701734433,
+  "share_sequence_supported": 0.0419391526869491,
+  "claim_type_entropy_bits": 3.410048354966583,
+  "n_types": 36,
+  "drift_family_entropy_bits": 1.8536216016047657,
+  "original_drift_rate_all7992": 0.17229729729729729,
+  "original_drift_on_kept": 0.09610463463178845,
+  "excluded_noise": 958
+}

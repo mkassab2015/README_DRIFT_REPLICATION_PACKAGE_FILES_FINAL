@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article and the package."
+title: "README Drift: Prevalence, Structure, and Persistence of Inconsistencies in Executable Repository Documentation (replication package)"
+authors:
+  - family-names: Kassab
+    given-names: Mohamad
+    affiliation: Boston University
+version: "2.0"
+date-released: "2026-09-25"
+license: MIT

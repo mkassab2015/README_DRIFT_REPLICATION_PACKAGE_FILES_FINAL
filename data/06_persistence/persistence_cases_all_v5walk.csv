@@ -1,0 +1,101 @@
+case_id,full_name,claim_type,artifact_or_path,snippet,first_drift_date,first_fix_date,fix_mode,duration_days,event_fixed,left_truncated,window_start,window_end,n_commits_checked,status
+P001,Aherontas/Pycon_Greece_2025_Presentation_Agents,artifact_ref,app/agents/new_agent_service.py,app/agents/new_agent_service.py,2025-09-18 11:52:01+00:00,,,3.0,0.0,0.0,2025-09-04 15:43:05+00:00,2025-09-22 08:37:29+00:00,15,ok
+P002,AiuniAI/Unique3D,artifact_ref,v1-inference.yaml,v1-inference.yaml,2024-05-30 20:53:00+00:00,,,413.0,0.0,0.0,2024-05-30 18:37:52+00:00,2025-07-17 21:29:04+00:00,61,ok
+P003,AllenMaxi/ContextGraph,artifact_ref,/v1/feed,/v1/feed,2026-03-14 20:43:01+00:00,,,35.0,0.0,0.0,2026-03-14 10:39:02+00:00,2026-04-18 21:57:27+00:00,105,ok
+P004,BerriAI/litellm,artifact_ref,/audio,/audio,2026-09-21 21:06:12+00:00,,,0.0,0.0,1.0,2026-09-21 21:06:12+00:00,2026-09-22 09:22:00+00:00,300,ok
+P005,ColinDuquesnoy/QDarkStyleSheet,artifact_ref,Qt.py,"If you are using Qt.py, which is different from qtpy, you should install",2020-03-18 20:17:37+00:00,,,1349.0,0.0,1.0,2020-03-18 20:17:37+00:00,2023-11-28 19:48:19+00:00,300,ok
+P006,DC-analysis/dclab,artifact_ref,_version.py,flake8 --exclude _version.py dclab,2024-07-10 13:12:20+00:00,,,803.0,0.0,1.0,2024-07-10 13:12:20+00:00,2026-09-22 07:29:51+00:00,300,ok
+P007,HKUDS/LightRAG,artifact_ref,BAAI/bge-m3,BAAI/bge-m3,2026-09-11 02:26:02+00:00,,,11.0,0.0,1.0,2026-09-11 02:26:02+00:00,2026-09-22 11:30:44+00:00,300,ok
+P008,IBM/jsonsubschema,artifact_ref,s1.json,s1.json,2021-07-09 14:09:48+00:00,,,1798.0,0.0,0.0,2019-05-25 21:44:47+00:00,2026-06-12 13:48:17+00:00,248,ok
+P009,JelleZijlstra/autotyping,artifact_ref,failures.json,`pyanalyze --json-output failures.json -e suggested_return_type -e suggested_parameter_type -v .`,2024-03-11 14:25:23+00:00,,,557.0,0.0,0.0,2021-06-24 22:43:43+00:00,2025-09-19 14:27:24+00:00,62,ok
+P010,Josverl/micropython-stubber,cd_dir,my_stub_workspace,cd my_stub_workspace,2025-12-15 13:45:58+00:00,,,258.0,0.0,0.0,2025-04-22 10:20:41+00:00,2026-08-30 14:22:50+00:00,300,ok
+P011,Kludex/starlette,artifact_ref,example.py,example.py,2024-12-30 07:48:16+00:00,,,628.0,0.0,1.0,2024-12-30 07:48:16+00:00,2026-09-20 06:46:57+00:00,300,ok
+P012,NVIDIA/TransformerEngine,artifact_ref,nvidia-cudnn-cu12/cu13,nvidia-cudnn-cu12/cu13,2026-06-03 15:39:21+00:00,,,110.0,0.0,1.0,2026-06-03 15:39:21+00:00,2026-09-21 21:15:21+00:00,300,ok
+P013,NaturalHistoryMuseum/ckanext-doi,artifact_ref,Dockerfile,There is a Docker compose configuration available in this repository to make it easier to run tests. The ckan image uses the Dockerfile in the `docker/` folder.,2023-09-20 15:37:42+00:00,,,732.0,0.0,0.0,2015-03-25 11:05:26+00:00,2025-09-22 14:05:11+00:00,300,ok
+P014,NeptuneHub/AudioMuse-AI,artifact_ref,dokcer-compose-emby.yaml,"> You also have docker-compose-navidrome.yaml, docker-compose-lyrion.yaml, dokcer-compose-emby.yaml",,,,,,,,,300,no_detectable_drift_in_checked_history
+P015,On-JungWoan/BIGS,run_shell_script,scripts/demo.sh,bash scripts/demo.sh,2025-09-22 05:54:54+00:00,,,249.0,0.0,0.0,2025-02-26 21:08:56+00:00,2026-05-30 04:40:31+00:00,12,ok
+P016,OpenGVLab/InternVL,artifact_ref,OpenGVLab/InternVL2_5-8B,OpenGVLab/InternVL2_5-8B,2024-12-05 18:26:06+00:00,,,290.0,0.0,0.0,2023-11-22 08:08:09+00:00,2025-09-22 01:36:47+00:00,261,ok
+P017,PlanExeOrg/PlanExe,artifact_ref,001-1-start_time.json,001-1-start_time.json,,,,,,,,,300,no_detectable_drift_in_checked_history
+P018,PrimeIntellect-ai/verifiers,artifact_ref,my_env.py,my_env.py,,,,,,,,,300,no_detectable_drift_in_checked_history
+P019,QData/TextAttack,artifact_ref,config.yaml,config.yaml,2022-08-26 18:26:15+00:00,,,1449.0,0.0,1.0,2022-08-26 18:26:15+00:00,2026-08-15 12:32:20+00:00,300,ok
+P020,QueraTeam/django-qsessions,python_script,manage.py,python manage.py migrate qsessions,2017-12-25 13:03:04+00:00,2018-01-25 14:14:39+00:00,supported,31.0,1.0,0.0,2017-12-25 12:01:16+00:00,2026-05-22 13:20:14+00:00,178,ok
+P021,Quivnex/blankly-finance,artifact_ref,blankly.json,blankly.json,2026-08-23 04:21:18+00:00,,,30.0,0.0,1.0,2026-08-23 04:21:18+00:00,2026-09-22 12:44:09+00:00,300,ok
+P022,SFTtech/openage,local_link_ref,/doc/building.md#dependency-installation,2. Install dependencies. See [doc/building.md](/doc/building.md#dependency-installation) to get instructions for your favorite platform.,2024-09-08 15:41:38+00:00,,,735.0,0.0,1.0,2024-09-08 15:41:38+00:00,2026-09-14 14:03:00+00:00,300,ok
+P023,SaiAkhil066/DeepSeek-RAG-Chatbot,artifact_ref,huihui-ai/Qwen3-1.7B-abliterated,huihui-ai/Qwen3-1.7B-abliterated,2025-05-24 22:44:00+00:00,2026-06-17 16:52:55+00:00,no_claim,388.0,1.0,0.0,2025-01-30 10:15:47+00:00,2026-09-11 17:55:26+00:00,66,ok
+P024,SakanaAI/ShinkaEvolve,artifact_ref,verbose/debug,verbose/debug,2026-03-18 03:23:40+00:00,,,156.0,0.0,1.0,2026-03-18 03:23:40+00:00,2026-08-21 13:07:37+00:00,300,ok
+P025,StdioA/beancount-bot,artifact_ref,config.yaml,config.yaml,2024-08-12 09:19:49+00:00,,,636.0,0.0,1.0,2024-08-12 09:19:49+00:00,2026-05-10 16:06:44+00:00,96,ok
+P026,SuperClaude-Org/SuperClaude_Framework,artifact_ref,/reflect,/reflect,2025-11-13 15:08:56+00:00,,,305.0,0.0,0.0,2025-07-17 06:20:48+00:00,2026-09-15 03:10:20+00:00,300,ok
+P027,TracecatHQ/tracecat,artifact_ref,deployments/k8s,deployments/k8s,,,,,,,,,300,no_detectable_drift_in_checked_history
+P028,Tuxemon/Tuxemon,make_target,BACKEND,make BACKEND=LINUX,,,,,,,,,300,no_detectable_drift_in_checked_history
+P029,aiming-lab/AutoResearchClaw,artifact_ref,config.yaml,config.yaml,2026-03-15 04:28:37+00:00,,,156.0,0.0,1.0,2026-03-15 04:28:37+00:00,2026-08-19 03:24:41+00:00,300,ok
+P030,alexta69/metube,artifact_ref,nginx/proxy-confs,nginx/proxy-confs,2025-09-24 13:30:58+00:00,2026-04-10 05:38:32+00:00,no_claim,197.0,1.0,1.0,2025-09-24 13:30:58+00:00,2026-09-20 07:28:10+00:00,300,ok
+P031,arabcoders/ytptube,artifact_ref,compose.yaml,compose.yaml,2026-02-14 15:49:52+00:00,2026-08-29 18:53:49+00:00,supported,196.0,1.0,1.0,2026-02-14 15:49:52+00:00,2026-09-22 08:12:51+00:00,300,ok
+P032,aturret/FastFetchBot,artifact_ref,docker-compose.yml,1. Copy `docker-compose.template.yml` to `docker-compose.yml`.,2026-02-18 18:49:22+00:00,,,157.0,0.0,0.0,2023-10-05 04:05:42+00:00,2026-07-26 17:03:07+00:00,300,ok
+P033,bionicles/tree_plus,make_target,library_demo,make library_demo,,,,,,,,,300,no_detectable_drift_in_checked_history
+P034,browser-use/browser-use,artifact_ref,browser_use_default.py,browser_use_default.py,,,,,,,,,300,no_detectable_drift_in_checked_history
+P035,buddy-compiler/buddy-mlir,local_link_ref,/docs/ManylinuxReleaseNotes.md,See [Manylinux release notes](./docs/ManylinuxReleaseNotes.md) for current,2026-03-09 04:38:03+00:00,,,192.0,0.0,0.0,2025-12-23 06:23:56+00:00,2026-09-17 11:33:24+00:00,300,ok
+P036,chadi0x/TheBigBrother,cd_dir,the-big-brother,cd the-big-brother,,,,,,,,,4,no_detectable_drift_in_checked_history
+P037,chopratejas/headroom,python_script,examples/needle_in_haystack_test.py,python examples/needle_in_haystack_test.py,,,,,,,,,300,no_detectable_drift_in_checked_history
+P038,chroma-core/chroma-mcp,artifact_ref,claude_desktop_config.json,claude_desktop_config.json,2025-02-12 04:36:45+00:00,,,217.0,0.0,0.0,2025-02-11 00:23:23+00:00,2025-09-17 20:20:13+00:00,57,ok
+P039,conda-forge/staged-recipes,python_script,setup.py,python setup.py,2026-09-16 02:47:06+00:00,,,6.0,0.0,1.0,2026-09-16 02:47:06+00:00,2026-09-22 12:55:58+00:00,300,ok
+P040,csparpa/pyowm,pip_requirements,requirements.txt,pip install -r requirements.txt,2025-08-27 02:20:24+00:00,,,0.0,0.0,0.0,2019-06-20 12:27:03+00:00,2025-08-27 06:57:10+00:00,300,ok
+P041,daltonmaag/vttLib,artifact_ref,setup.py,2. `python3 setup.py bdist_wheel`,2022-10-25 09:32:28+00:00,,,1344.0,0.0,0.0,2016-07-04 15:54:55+00:00,2026-06-30 15:23:54+00:00,169,ok
+P042,decargroup/pykoop,make_target,html,make html,,,,,,,,,300,no_detectable_drift_in_checked_history
+P043,devbis/ble2mqtt,artifact_ref,PWD/ble2mqtt.json,PWD/ble2mqtt.json,2021-01-06 09:11:19+00:00,,,1715.0,0.0,0.0,2020-11-12 08:49:22+00:00,2025-09-17 13:45:55+00:00,300,ok
+P044,diafygi/acme-tiny,artifact_ref,renew_cert.sh,renew_cert.sh,2015-11-26 06:48:17+00:00,,,3805.0,0.0,0.0,2015-11-26 05:44:00+00:00,2026-04-27 12:46:38+00:00,203,ok
+P045,dickreuter/Poker,artifact_ref,test_montecarlo_numpy.py,test_montecarlo_numpy.py,,,,,,,,,300,no_detectable_drift_in_checked_history
+P046,digitalfox/pydici,artifact_ref,pydici/settings.py,You will need a running mysql or mariadb with a database named pydici (see pydici/settings.py for default credential),,,,,,,,,300,no_detectable_drift_in_checked_history
+P047,django-mptt/django-mptt,make_target,retrieval,make retrieval operations very efficient.,,,,,,,,,300,no_detectable_drift_in_checked_history
+P048,djsudduth/keep-it-markdown,artifact_ref,settings.cfg,At first launch KIM will create a **settings.cfg** file in the directory where you chose to install KIM. You can modify these settings with a text editor:,2020-10-30 17:15:19+00:00,,,2122.0,0.0,0.0,2020-10-22 02:07:31+00:00,2026-08-23 16:45:44+00:00,280,ok
+P049,dlt-hub/dlt,artifact_ref,response.json,response.json,2026-03-13 06:59:52+00:00,2026-07-21 23:57:57+00:00,no_claim,130.0,1.0,1.0,2026-03-13 06:59:52+00:00,2026-09-21 16:22:42+00:00,300,ok
+P050,egbertbouman/youtube-comment-downloader,artifact_ref,ScMzIvxBSi4.json,ScMzIvxBSi4.json,2020-07-16 18:15:55+00:00,,,2203.0,0.0,0.0,2015-08-31 18:53:08+00:00,2026-07-29 17:31:58+00:00,83,ok
+P051,evalstate/fast-agent,artifact_ref,social.py,social.py,2026-03-17 19:44:46+00:00,,,188.0,0.0,1.0,2026-03-17 19:44:46+00:00,2026-09-22 10:05:22+00:00,300,ok
+P052,faustomorales/keras-ocr,make_target,build,make build,,,,,,,,,208,no_detectable_drift_in_checked_history
+P053,fhamborg/news-please,artifact_ref,article.json,article.json,2023-04-05 10:46:50+00:00,,,1105.0,0.0,0.0,2019-11-14 14:00:54+00:00,2026-04-14 21:17:41+00:00,300,ok
+P054,furthemore/APIS,artifact_ref,docker-compose.yml,# Download docker-compose.yml and example.env files from this repo,2024-05-31 16:16:15+00:00,,,842.0,0.0,0.0,2022-11-03 09:54:11+00:00,2026-09-21 01:20:03+00:00,300,ok
+P055,huggingface/upskill,artifact_ref,batch_summary.json,batch_summary.json,2026-01-21 15:59:09+00:00,2026-01-22 13:11:29+00:00,supported,0.0,1.0,0.0,2026-01-21 11:31:57+00:00,2026-09-18 14:05:27+00:00,86,ok
+P056,infinito-nexus/core,local_link_ref,docs/Docker.md,"Get Infinito.Nexus up and running inside Docker in just a few steps. For detailed build options and troubleshooting, see the [Docker Guide](docs/Docker.md).",,,,,,,,,300,no_detectable_drift_in_checked_history
+P057,initialcommit-com/git-sim,cd_dir,dummy-repo,cd dummy-repo,2023-02-19 08:27:50+00:00,,,878.0,0.0,0.0,2022-11-24 20:38:09+00:00,2025-07-17 06:07:47+00:00,300,ok
+P058,inworld-ai/tts,make_target,test-coverage,make test-coverage  # Run tests with coverage report,,,,,,,,,11,no_detectable_drift_in_checked_history
+P059,inyokaproject/inyoka,artifact_ref,/contributing,/contributing,2025-07-02 20:19:48+00:00,,,444.0,0.0,1.0,2025-07-02 20:19:48+00:00,2026-09-20 20:15:39+00:00,300,ok
+P060,ionelmc/python-hunter,python_script,yourapp.py,python yourapp.py,2020-08-04 09:38:12+00:00,,,1844.0,0.0,1.0,2020-08-04 09:38:12+00:00,2025-08-22 21:11:31+00:00,300,ok
+P061,iszhanjiawei/indexTTS2,artifact_ref,config.yaml,config.yaml,2025-09-06 08:32:31+00:00,,,5.0,0.0,1.0,2025-09-06 08:32:31+00:00,2025-09-12 06:33:50+00:00,2,ok
+P062,jacob-bd/notebooklm-mcp-cli,cd_dir,notebooklm-mcp,cd notebooklm-mcp,2026-04-21 17:25:41+00:00,,,151.0,0.0,1.0,2026-04-21 17:25:41+00:00,2026-09-20 15:21:13+00:00,300,ok
+P063,jmcentire/pact,artifact_ref,access_graph.json,"6. **Arbiter** -- Generate access_graph.json, register with Arbiter for blast radius analysis. HUMAN_GATE pauses pipeline.",2026-03-15 23:36:00+00:00,,,181.0,0.0,0.0,2026-02-14 07:15:13+00:00,2026-09-13 15:14:04+00:00,161,ok
+P064,kang-wu/SkySensePlusPlus,artifact_ref,deforestation_atlantic_val.json,deforestation_atlantic_val.json,2025-09-16 08:23:40+00:00,,,1.0,0.0,0.0,2024-11-04 14:18:06+00:00,2025-09-18 08:11:15+00:00,24,ok
+P065,kunickiaj/codemem,artifact_ref,/api/pack,/api/pack,2026-08-23 15:55:31+00:00,,,29.0,0.0,1.0,2026-08-23 15:55:31+00:00,2026-09-22 02:45:20+00:00,300,ok
+P066,lae/ansible-role-proxmox,artifact_ref,install_proxmox.yml,install_proxmox.yml,2020-12-21 16:39:51+00:00,,,2029.0,0.0,1.0,2020-12-21 16:39:51+00:00,2026-07-13 06:08:07+00:00,300,ok
+P067,ldayton/Dippy,artifact_ref,/hooks,/hooks,2026-01-07 15:11:57+00:00,,,155.0,0.0,1.0,2026-01-07 15:11:57+00:00,2026-06-12 10:29:47+00:00,178,ok
+P068,lightning-rod-labs/sculpt,artifact_ref,pipeline_config.yaml,pipeline_config.yaml,2025-01-12 19:21:34+00:00,,,184.0,0.0,0.0,2025-01-11 22:42:53+00:00,2025-07-16 15:01:15+00:00,42,ok
+P069,lorien/grab,artifact_ref,g.go,g.go,2022-12-11 01:40:37+00:00,2022-12-21 23:17:50+00:00,no_claim,10.0,1.0,1.0,2022-12-11 01:40:37+00:00,2025-09-19 10:51:14+00:00,300,ok
+P070,lutris/website,cd_dir,/srv/backup/sql,cd /srv/backup/sql,2023-08-08 23:25:04+00:00,,,1139.0,0.0,1.0,2023-08-08 23:25:04+00:00,2026-09-21 18:41:42+00:00,300,ok
+P071,markdrago/pgsanity,make_target,install,make install clean,2018-03-18 14:07:46+00:00,,,2743.0,0.0,0.0,2012-10-29 15:40:09+00:00,2025-09-20 21:29:07+00:00,70,ok
+P072,math-inc/OpenGauss,artifact_ref,/formalize,/formalize ...,2026-03-19 17:58:43+00:00,,,16.0,0.0,1.0,2026-03-19 17:58:43+00:00,2026-04-05 16:41:18+00:00,71,ok
+P073,mees/calvin,cd_dir,task_D_D,cd task_D_D,2023-02-24 09:41:28+00:00,,,926.0,0.0,0.0,2021-07-20 15:43:27+00:00,2025-09-08 08:51:51+00:00,273,ok
+P074,mholzi/beatify,local_link_ref,docs/ARCHITECTURE.md,Developer docs: [Architecture](docs/ARCHITECTURE.md) | [WebSocket API](docs/WEBSOCKET.md) | [Changelog](CHANGELOG.md),,,,,,,,,300,no_detectable_drift_in_checked_history
+P075,microsoft/apm,artifact_ref,Cargo.toml,"Think `package.json`, `requirements.txt`, or `Cargo.toml` — but for AI agent configuration.",2026-07-31 13:58:28+00:00,,,53.0,0.0,1.0,2026-07-31 13:58:28+00:00,2026-09-22 14:37:30+00:00,300,ok
+P076,nomadkaraoke/karaoke-gen,artifact_ref,/api/health,/api/health,2026-04-14 20:26:35+00:00,,,158.0,0.0,1.0,2026-04-14 20:26:35+00:00,2026-09-20 17:08:19+00:00,300,ok
+P077,nschloe/tuna,make_target,dep,make dep,2021-08-10 09:48:24+00:00,2026-04-11 13:27:09+00:00,no_claim,1705.0,1.0,0.0,2020-02-04 15:18:55+00:00,2026-06-16 19:09:28+00:00,300,ok
+P078,nutti/Screencast-Keys,local_link_ref,docs/installation.md#support-version,[the add-on version](docs/installation.md#support-version) supports on the your,2023-05-21 11:55:27+00:00,,,1098.0,0.0,0.0,2018-10-06 23:34:58+00:00,2026-05-23 13:17:54+00:00,191,ok
+P079,ollo69/ha-smartthinq-sensors,artifact_ref,/config/www/laundry.js,/config/www/laundry.js,2022-12-29 15:29:58+00:00,,,1243.0,0.0,1.0,2022-12-29 15:29:58+00:00,2026-05-25 21:51:55+00:00,300,ok
+P080,osm-search/Nominatim,cd_dir,nominatim-project,cd nominatim-project,2026-03-13 12:01:51+00:00,,,187.0,0.0,1.0,2026-03-13 12:01:51+00:00,2026-09-16 14:01:06+00:00,300,ok
+P081,owkin/fedpydeseq2,artifact_ref,paths.json,paths.json,2024-12-03 16:04:48+00:00,,,264.0,0.0,1.0,2024-12-03 16:04:48+00:00,2025-08-25 08:09:54+00:00,32,ok
+P082,pex-tool/pex,artifact_ref,webserver.py,Run webserver.py in an environment containing ``flask`` as a quick way to experiment:,2025-08-16 23:49:28+00:00,,,397.0,0.0,1.0,2025-08-16 23:49:28+00:00,2026-09-18 16:24:46+00:00,300,ok
+P083,phoenixthrush/AniWorld-Downloader,artifact_ref,docker-compose.yml,> **Tip:** Ensure your `docker-compose.yml` correctly configures volumes and ports if you want to persist downloads or access the Web UI externally.,2026-05-30 17:27:36+00:00,2026-07-21 15:36:27+00:00,no_claim,51.0,1.0,1.0,2026-05-30 17:27:36+00:00,2026-09-21 13:28:24+00:00,300,ok
+P084,pipecat-ai/pipecat,cd_dir,my-pipecat-app,cd my-pipecat-app,2026-09-11 21:40:04+00:00,,,9.0,0.0,1.0,2026-09-11 21:40:04+00:00,2026-09-21 14:32:30+00:00,300,ok
+P085,prometheus-pve/prometheus-pve-exporter,artifact_ref,/metric,/metric,2025-12-16 18:37:52+00:00,,,254.0,0.0,0.0,2020-07-02 08:14:41+00:00,2026-08-28 09:26:13+00:00,300,ok
+P086,python/cpython,make_target,altinstall,make altinstall,,,,,,,,,300,no_detectable_drift_in_checked_history
+P087,qgis/QGIS-Website,local_link_ref,/CONTRIBUTING.md#nix,Please refer to the [Nix section](./CONTRIBUTING.md#nix) in [CONTRIBUTING.md](./CONTRIBUTING.md).,2026-09-05 04:06:23+00:00,,,17.0,0.0,1.0,2026-09-05 04:06:23+00:00,2026-09-22 13:05:53+00:00,300,ok
+P088,qlands/FormShare,artifact_ref,development.ini,- Changing the encryption key (aes.key) in the development.ini file.,2024-05-15 00:25:48+00:00,,,859.0,0.0,1.0,2024-05-15 00:25:48+00:00,2026-09-21 16:05:11+00:00,300,ok
+P089,sairajk/easi-tex,artifact_ref,42-ip1.0-cn1.0-dist0.8-gs10.0-p36-h20-us0.4-vt0.1/update/mesh/19.obj,42-ip1.0-cn1.0-dist0.8-gs10.0-p36-h20-us0.4-vt0.1/update/mesh/19.obj,2024-05-28 03:16:42+00:00,,,63.0,0.0,1.0,2024-05-28 03:16:42+00:00,2024-07-30 22:17:06+00:00,2,ok
+P090,scottrogowski/code2flow,artifact_ref,project/directory/source_a.js,project/directory/source_a.js,2021-04-23 22:18:37+00:00,,,625.0,0.0,0.0,2013-05-24 04:17:43+00:00,2023-01-08 22:55:22+00:00,126,ok
+P091,superhac/vpinfe,artifact_ref,vpinfe.ini,vpinfe.ini,2026-03-22 17:29:12+00:00,,,138.0,0.0,1.0,2026-03-22 17:29:12+00:00,2026-08-08 12:14:39+00:00,300,ok
+P092,thammegowda/mtdata,artifact_ref,train.stats.json,train.stats.json,2021-10-17 20:13:06+00:00,,,1639.0,0.0,0.0,2021-05-26 10:30:58+00:00,2026-04-13 21:09:40+00:00,300,ok
+P093,themanojdesai/python-a2a,artifact_ref,research_workflow.py,research_workflow.py,2025-04-22 17:29:20+00:00,,,136.0,0.0,0.0,2025-04-09 15:31:52+00:00,2025-09-06 08:07:47+00:00,104,ok
+P094,toniantunovi/lucidshark,artifact_ref,mcp.json,.mcp.json,2026-03-09 15:19:13+00:00,,,190.0,0.0,1.0,2026-03-09 15:19:13+00:00,2026-09-16 08:52:30+00:00,300,ok
+P095,trachote/crystalgrw,artifact_ref,/Delta^2,\Delta^2,2025-01-16 03:47:33+00:00,,,491.0,0.0,1.0,2025-01-16 03:47:33+00:00,2026-05-22 07:39:23+00:00,16,ok
+P096,vmware/pyvmomi,artifact_ref,setup.py,``python setup.py develop`` for development install or,,,,,,,,,300,no_detectable_drift_in_checked_history
+P097,voxel51/fiftyone,cd_dir,C,cd C:\path\to\your\project,2026-09-08 16:28:49+00:00,,,13.0,0.0,1.0,2026-09-08 16:28:49+00:00,2026-09-22 14:21:50+00:00,300,ok
+P098,vrgamegirl19/comfyui-vrgamedevgirl,artifact_ref,ComfyUI/custom_nodes,ComfyUI/custom_nodes,2026-07-26 15:54:23+00:00,,,56.0,0.0,1.0,2026-07-26 15:54:23+00:00,2026-09-21 02:32:38+00:00,300,ok
+P099,wgsxm/PartCrafter,artifact_ref,/pretrained_models/TripoSG,./pretrained_models/TripoSG,2025-07-13 11:03:37+00:00,,,277.0,0.0,0.0,2025-06-09 06:13:45+00:00,2026-04-16 18:41:43+00:00,24,ok
+P100,zeeyado/quran-ebook,artifact_ref,/sdcard/koreader/plugins/,/sdcard/koreader/plugins/,2026-03-11 02:38:52+00:00,,,138.0,0.0,0.0,2026-03-02 18:41:15+00:00,2026-07-27 17:47:23+00:00,300,ok

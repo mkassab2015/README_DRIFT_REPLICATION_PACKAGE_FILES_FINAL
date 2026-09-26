@@ -1,0 +1,8 @@
+context_type,n,drifted,uncertain,supported,verified,drift_rate,DRI
+fenced_code,4102,65,206,3831,1849,1.6,0.918
+inline_code_command,1102,21,32,1049,296,1.9,0.933
+section_line_command,815,14,36,765,283,1.7,0.921
+inline_code_artifact,454,51,35,368,454,11.2,0.698
+markdown_link,260,6,2,252,260,2.3,0.946
+section_line_artifact,190,40,1,149,190,21.1,0.574
+fenced_code_artifact,111,49,5,57,111,44.1,0.072

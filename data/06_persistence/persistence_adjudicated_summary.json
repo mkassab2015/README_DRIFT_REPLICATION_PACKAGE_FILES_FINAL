@@ -1,0 +1,57 @@
+{
+ "n_cases": 47,
+ "adjudication": {
+  "uncertain": 18,
+  "not-a-claim": 17,
+  "supported": 6,
+  "drifted": 6
+ },
+ "labels_from_coders": 24,
+ "labels_from_author": 23,
+ "confirmed_drifted": {
+  "n": 6,
+  "fixed": 1,
+  "fixed_case": "P077 (claim removed after 1705 days)",
+  "censored_durations_days": [
+   151,
+   192,
+   249,
+   842,
+   1344
+  ]
+ },
+ "all_47_detector_labelled": {
+  "n_cohort": 64,
+  "n_ok": 47,
+  "fixed": 7,
+  "censored": 40,
+  "left_trunc": 21,
+  "km_end": 0.7263515912044343,
+  "km_ci": [
+   0.4858743144764448,
+   0.9668288679324237
+  ],
+  "km_1y": 0.8474101897385066,
+  "km_2y": 0.8474101897385066,
+  "max_fu": 3805.0,
+  "med_obs": 397.0,
+  "mean_obs": 737.4468085106383,
+  "nlt_n": 26,
+  "nlt_fixed": 3,
+  "nlt_km": 0.76486013986014,
+  "fix_modes": {
+   "": 40,
+   "no_claim": 4,
+   "supported": 3
+  },
+  "types": {
+   "artifact_ref": 37,
+   "python_script": 2,
+   "local_link_ref": 2,
+   "cd_dir": 2,
+   "make_target": 2,
+   "run_shell_script": 1,
+   "pip_requirements": 1
+  }
+ }
+}
